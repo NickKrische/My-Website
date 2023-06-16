@@ -143,7 +143,7 @@ hr{
 }
 
 /* Mobile Adaptation */
-@media only screen and (max-width: 768px){
+@media only screen and (man-width: 768px){
     .skill-row{
         width: 50%;
         margin: 100px auto 100px auto;

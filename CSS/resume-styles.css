@@ -87,3 +87,25 @@ hr{
 .footer-link{
     padding: 15px 15px 25px 15px;
 }
+
+.school-attended{
+    color: #11999E;
+    text-align: left;
+    font-size: 2.35rem;
+    margin-left: 20px;
+}
+
+.degree{
+    color: #66BFBF;
+    font-size: 2rem;
+}
+
+.dates-attended{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.class-attended{
+    text-align: left;
+    margin-left: 40px;
+}

@@ -88,6 +88,11 @@ hr{
     padding: 15px 15px 25px 15px;
 }
 
+.profiles-row {
+    width: 40px;
+    height: 40px;
+}
+
 .school-attended{
     color: #11999E;
     text-align: left;

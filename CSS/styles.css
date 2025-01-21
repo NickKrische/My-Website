@@ -43,11 +43,13 @@ body{
     z-index: 1;
 }
 
+.portfolio-items.show{
+    display:block;
+}
+
 .portfolio-items a{
     display: block;
 }
-
-.show{display:block;}
 
 h1{
     font-family: 'Dancing Script', cursive;

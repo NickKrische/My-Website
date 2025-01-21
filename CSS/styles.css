@@ -23,7 +23,16 @@ body{
     color: #E4F9F5;
 }
 
-.portfolios-dropdown{
+.portfolios-button {
+    border: none;
+    cursor: pointer;
+}
+
+.portfolios-button:hover, .portfolios-button:focus{
+
+}
+
+.portfolios-dropdown {
     position: relative;
     display: inline-block;
 }

@@ -43,6 +43,10 @@ body{
     z-index: 1;
 }
 
+.portfolio-items a{
+    display: block;
+}
+
 .show{display:block;}
 
 h1{

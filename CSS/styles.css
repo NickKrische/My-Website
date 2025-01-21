@@ -23,6 +23,11 @@ body{
     color: #E4F9F5;
 }
 
+.portfolio-items{
+    display: none;
+    z-index: 1;
+}
+
 h1{
     font-family: 'Dancing Script', cursive;
     color: #66BFBF;

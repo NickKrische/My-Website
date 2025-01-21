@@ -28,6 +28,8 @@ body{
     z-index: 1;
 }
 
+.show{display:block;}
+
 h1{
     font-family: 'Dancing Script', cursive;
     color: #66BFBF;

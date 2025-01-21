@@ -30,6 +30,7 @@ body{
 .portfolio-items {
     display: none;
     z-index: auto;
+    position: absolute;
 }
 
 .portfolio-items a{

@@ -23,8 +23,14 @@ body{
     color: #E4F9F5;
 }
 
-.portfolio-items{
+.portfolios-dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.portfolio-items {
     display: none;
+    position: absolute;
     z-index: 1;
 }
 

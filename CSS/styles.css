@@ -30,18 +30,8 @@ body{
     cursor: pointer;
 }
 
-.portfolios-button:hover, .portfolios-button:focus{
-
-}
-
-.portfolios-dropdown {
-    position: relative;
-    display: inline-block;
-}
-
 .portfolio-items {
     display: none;
-    position: absolute;
     z-index: 1;
 }
 

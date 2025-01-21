@@ -4,7 +4,7 @@ function dropdownFunction() {
 
 window.onclick = function (event) {
     if (!event.target.matches('.portfolios-button')) {
-        var dropdowns = document.getElemeentsByClassName("portfolio-items");
+        var dropdowns = document.getElementsByClassName("portfolio-items");
         var i;
         for (i = 0; i < dropdowns.length; i++) {
             var openDropdown = dropdowns[i];

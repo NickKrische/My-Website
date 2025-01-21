@@ -3,7 +3,7 @@ function dropdownFunction() {
 }
 
 window.onclick = function (event) {
-    if (!event.target.matches('.portfolios-button')) {
+    if (!event.target.matches('.portfolios-button') && !event.target.closest('.portfolio-items')) {
         var dropdowns = document.getElementsByClassName("portfolio-items");
         var i;
         for (i = 0; i < dropdowns.length; i++) {

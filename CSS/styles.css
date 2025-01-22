@@ -43,9 +43,13 @@ body{
     display: block;
 }
 
-.portfolios-dropdown:hover .portfolio-items{
+.show{
     display: block;
 }
+
+/*.portfolios-dropdown:hover .portfolio-items{
+    display: block;
+}*/
 
 h1 {
     font-family: 'Dancing Script', cursive;

@@ -25,6 +25,7 @@ body{
 
 .portfolios-dropdown{
     position: relative;
+    display: inline-block;
 }
 
 .portfolios-button {

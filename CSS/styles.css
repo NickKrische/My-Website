@@ -25,7 +25,6 @@ body{
 
 .portfolios-dropdown{
     position: relative;
-    display: inline-block;
 }
 
 .portfolios-button {
@@ -43,13 +42,13 @@ body{
     display: block;
 }
 
-.show{
-    display: block;
-}
-
-/*.portfolios-dropdown:hover .portfolio-items{
+/*.show{
     display: block;
 }*/
+
+.portfolios-dropdown:hover .portfolio-items{
+    display: block;
+}
 
 h1 {
     font-family: 'Dancing Script', cursive;

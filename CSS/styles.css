@@ -24,6 +24,7 @@ body{
 }
 
 .portfolios-dropdown{
+    position: relative;
     display: inline-block;
 }
 
@@ -33,7 +34,7 @@ body{
 
 .portfolio-items {
     display: none;
-    z-index: auto;
+    z-index: 1;
     position: absolute;
 }
 

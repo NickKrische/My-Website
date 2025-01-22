@@ -23,6 +23,10 @@ body{
     color: #E4F9F5;
 }
 
+.portfolios-dropdown{
+    display: inline-block;
+}
+
 .portfolios-button {
     cursor: pointer;
 }

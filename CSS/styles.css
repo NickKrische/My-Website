@@ -34,7 +34,7 @@ body{
 
 .portfolio-items {
     display: none;
-    background-color: #f9f9f9;
+    background-color: #11999E;
     z-index: 1;
     position: absolute;
 }

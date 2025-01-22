@@ -42,9 +42,11 @@ body{
     display: block;
 }
 
-.show{display:block;}
+.portfolios-dropdown:hover .portfolio-items{
+    display: block;
+}
 
-h1{
+h1 {
     font-family: 'Dancing Script', cursive;
     color: #66BFBF;
     font-size: 4.25rem;

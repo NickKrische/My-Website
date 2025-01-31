@@ -5,6 +5,7 @@ body{
     font-size: 2rem;
 }
 
+/*Universal Navbart styling*/
 .navbar{
     padding-bottom: 10px;
     padding-top: 25px;
@@ -51,6 +52,8 @@ body{
     display: block;
 }
 
+
+/*Universal Element Styling*/
 h1 {
     font-family: 'Dancing Script', cursive;
     color: #66BFBF;
@@ -84,6 +87,7 @@ hr{
     margin-top: 30px;
 }
 
+/*HomePage Styling*/
 .top-container{
     background-color: #E4F9F5;
     padding-top: 100px;
@@ -173,6 +177,51 @@ hr{
 .profiles-row{
     width: 40px;
     height: 40px;
+}
+
+/*Resume Styling*/
+.job-company {
+    color: #11999E;
+    text-align: left;
+    font-size: 2.35rem;
+    margin-left: 20px;
+}
+
+.job-title {
+    color: #66BFBF;
+    font-size: 2rem;
+}
+
+.date {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.job-tasks {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.school-attended {
+    color: #11999E;
+    text-align: left;
+    font-size: 2.35rem;
+    margin-left: 20px;
+}
+
+.degree {
+    color: #66BFBF;
+    font-size: 2rem;
+}
+
+.dates-attended {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.class-attended {
+    text-align: left;
+    margin-left: 40px;
 }
 
 /* Mobile Adaptation */

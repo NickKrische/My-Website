@@ -36,7 +36,13 @@
                         <a class="nav-link" href="resume.html">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Portfolio</a>
+                        <div class="portfolios-dropdown">
+                            <p onclick="dropdownFunction()" class="portfolios-button nav-link">Portfolios</p>
+                            <div id="portfolio-item-dropdown" class="portfolio-items">
+                                <a class="nav-link" href="software-portfolio.html">Software Development</a>
+                                <a class="nav-link" href="photography-portfolio.html">Photography</a>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -81,7 +87,7 @@
         <p>
             This website was built for the Nevada Gaming Commission and Nevada Gaming Control Board beacuse originally they were sites and information were not maintained by my team,
             but they wanted to be put into our stack. The site itself was built by other members of my team at the time, however as a group we migrated all of the content from the
-            old site to the new one. Since Nevada Gaming Commission and Nevada Gaming Control Board is so important to the State of Nevada, my team and I were given awards for our 
+            old site to the new one. Since Nevada Gaming Commission and Nevada Gaming Control Board is so important to the State of Nevada, my team and I were given awards for our
             hardwork and getting the job done exceptionally quick.
         </p>
 
@@ -94,7 +100,35 @@
         <hr />
     </div>
 
-    <img class="" src="Images/Under Construction.jpg" alt="Under_Construction-img">
+    <!-- Contact Information -->
+    <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you would like to reach me, here is my contact information:</h3>
+        <ul style="list-style:none">
+            <li>
+                Email: nickkrische@gmail.com
+            </li>
+            <li>
+                Phone: (775)722-3859
+            </li>
+        </ul>
+    </div>
+
+    <div class="bottom-container">
+        <!-- Web Page Links -->
+        <a class="footer-link" href="resume.html">Resume</a>
+        <a class="footer-link" href="portfolio.html">Portfolio</a>
+        <br>
+
+        <!-- External Links -->
+        <a href="https://www.instagram.com/nickolaskrische"><img class="profiles-row" src="Images/Instagram Logo.png" alt="Instagram" /></a>
+        <a href="https://twitter.com/GlacialRush"><img class="profiles-row" src="Images/X Logo.png" alt="X" /></a>
+        <a href="https://www.linkedin.com/in/nickolas-krische"><img class="profiles-row" src="Images/Linkedin Logo.png" alt="Linkedin" /></a>
+        <a href="https://github.com/NickKrische"><img class="profiles-row" src="Images/Github Logo.png" alt="Github" /></a>
+        <a class="footer-link" href="https://ada.nv.gov/">Nevada ADA Website</a>
+        <p>You can find the code to this website here: <a class="footer-link" href="">Source Code</a></p>
+
+    </div>
 
     <!-- Bootstrap Link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>

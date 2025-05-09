@@ -96,16 +96,13 @@ hr{
 
 .middle-container{
     background-color: white;
-    box-sizing: border-box;
-    border-right-width: 50px;
-    border-left-width: 50px;
-    border-color: black;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .bottom-container{
     background-color: #66BFBF;
     padding: 50px 0 20px;
-    margin-top: 50px;
 }
 
 .bottom-cloud{

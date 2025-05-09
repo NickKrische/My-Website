@@ -186,6 +186,14 @@ hr{
 }
 
 /*Resume Styling*/
+.summary {
+    background-color: white;
+}
+
+.experiences{
+    background-color: white;
+}
+
 .job-company {
     color: #11999E;
     text-align: left;

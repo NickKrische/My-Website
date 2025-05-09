@@ -94,10 +94,8 @@ hr{
 }
 
 .middle-container{
-    border-left-width: 50px;
-    border-left-color: #E4F9F5;
-    border-right-width: 50px;
-    border-right-color: #E4F9F5;
+    border-left: 100px, #E4F9F5;
+    border-right: 100px, #E4F9F5;
 }
 
 .bottom-container{

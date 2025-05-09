@@ -94,6 +94,7 @@ hr{
 }
 
 .middle-container{
+    border-left-width: 100px;
     padding-left: 100px;
     padding-right: 100px;
     border-color: #E4F9F5;

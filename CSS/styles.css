@@ -3,7 +3,6 @@ body{
     text-align: center;
     font-family: serif;
     font-size: 2rem;
-    background-color: #E4F9F5;
 }
 
 /*Universal Navbart styling*/
@@ -94,11 +93,11 @@ hr{
     padding-top: 100px;
 }
 
-/* .middle-container{
-    border-left-width: 100px;
-    border-right-width: 100px;
-    border-color: #E4F9F5;
-} */
+.middle-container{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #E4F9F5;
+}
 
 .bottom-container{
     background-color: #66BFBF;
